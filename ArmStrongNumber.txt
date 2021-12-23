@@ -1,0 +1,21 @@
+package patterns;
+public class ArmstrongNumber {
+public static void main (String[]args) {
+int number=371;
+	int a=number , sum=0 ,num=0;
+
+	while (a%10 !=0) {
+		num=a%10;
+		sum =sum+(num*num*num);
+		a=a/10;
+	
+	}
+	if (sum==number) {
+		System.out.println("This is a Armstrong Number");
+	}else {
+		System.out.println("Not Armstrong Number");
+	}
+	
+}
+
+}
