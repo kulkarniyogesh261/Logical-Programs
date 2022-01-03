@@ -1,0 +1,24 @@
+select (10+20) as addition;
+select (20-10) as Substraction;
+select length('INDIA') as Toatal_Length;
+select repeat('#' ,10);
+select lower('INDIA');
+select upper('India');
+select curdate();
+select day(curdate());
+select now();
+
+#String Functions
+select concat("India", " Is ","In Asia");
+select reverse('India');
+Select replace("Orange is a vegitable",'vegitable','fruit') as replaced;
+select ltrim("    India");
+select ltrim("India");
+Select length("         India           ");
+select ltrim("         India           ");
+select rtrim("India           ");
+
+
+
+
+
